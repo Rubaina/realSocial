@@ -1,0 +1,25 @@
+{
+  "name": "bantuan-wa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WhatsApp assistant that finds government support a household may be eligible for and explains how to apply",
+  "scripts": {
+    "sim": "node --env-file-if-exists=.env --import tsx src/channels/simulator.ts",
+    "start": "node --env-file-if-exists=.env --import tsx src/server.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "fastify": "^5.12.8",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

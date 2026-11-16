@@ -1,0 +1,11 @@
+- id: income
+  text: About how much does your whole family earn in a month?
+  options:
+    - { value: low, label: "Under Rs 10,000" }
+    - { value: mid, label: "Rs 10,000 - 25,000" }
+    - { value: high, label: "Over Rs 25,000" }
+- id: school_child
+  text: Is there a child in your family who is still in school?
+  options:
+    - { value: "yes", label: "Yes" }
+    - { value: "no", label: "No" }

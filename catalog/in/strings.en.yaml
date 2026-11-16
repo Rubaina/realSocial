@@ -1,0 +1,54 @@
+pick_language: Choose your language.
+change_language: Change language
+welcome: |-
+  Welcome to {operator}, a people-first tool to navigate the complexity of policy documents and rules and get you the support you need to avail the services available to you. 👋
+
+  I help you find government support your family may be able to get in {country}, and explain how to apply. {operator} is not a government service.
+
+  I will ask a few short questions about your family. Your answers are used only to find matching support. Type DELETE MY DATA at any time to erase them.
+
+  This is free. I never ask for money, PINs, passwords, or photos of your documents.
+start: Start
+change_country: Change country
+choose: Choose
+more: More
+pick_country: Choose your country.
+region_prompt: Which {level} do you live in?
+not_understood: Sorry, I did not understand. Please pick one, or type its number.
+voice_unavailable: Sorry, I cannot listen to voice notes yet. Please pick one, or type its number.
+no_media: You do not need to send photos or files here. Please do not send pictures of your ID or family documents.
+results_intro: "Your family *may* be able to get this support. Pick one to see how to apply. The government office makes the final decision."
+results_none: From your answers I did not find matching support right now. You can still ask at your local government office.
+restart: Start again
+why_label: "This fits you because:"
+how_apply: How to apply
+back: Back
+route_prompt: How would you like to apply?
+in_person: Go in person
+online: Apply online
+where: Where to go
+bring: Bring
+ready: Have ready
+steps: Steps
+cost: "Cost:"
+time: "Time:"
+source: "Source: {url}"
+unverified: This information was last checked a long time ago. Confirm with the office or official website before you go.
+docs_prompt: Do you have all the documents listed above?
+docs_have: I have them
+docs_missing: Not yet
+docs_tip: That is all right. Ask at your local government office how to get the missing document, then come back to these steps.
+after_prompt: Please save the message above. What next?
+applied: I have applied
+other_program: Another program
+done: Finish
+thanks_applied: Well done! Good luck. 🙏
+goodbye: OK. Type MENU at any time to see your list of support again.
+delete_confirm: All your answers will be erased and cannot be recovered. Continue?
+delete_yes: Yes, erase
+delete_no: Cancel
+deleted: Your data has been erased. Send any message to start again.
+cmd_delete: delete my data
+cmd_country: change country
+cmd_language: change language
+cmd_menu: menu

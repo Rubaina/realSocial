@@ -1,0 +1,60 @@
+id: kip_kuliah
+title: { id: KIP Kuliah, en: KIP Kuliah scholarship }
+benefit:
+  id: Kuliah gratis dan uang saku bulanan untuk anak keluarga kurang mampu
+  en: Free university and a monthly allowance for low-income students
+why:
+  id: Ada anak yang ingin kuliah, dan keluarga terdata kurang mampu atau berpenghasilan kecil.
+  en: A child wants to go to university, and the family is listed as low-income or has a small income.
+priority: 95
+eligibility:
+  all:
+    - { fact: college_bound, in: ["yes"] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2, 2to4] }
+how_to_apply:
+  online:
+    url: https://kip-kuliah.kemdiktisaintek.go.id
+    ready:
+      id:
+        - NIK anak (ada di KK)
+        - NISN anak dan NPSN sekolah (tanya ke sekolah)
+        - Alamat email pribadi yang aktif
+      en:
+        - Child's NIK number (on the family card)
+        - Child's NISN and the school's NPSN number (ask the school)
+        - A working personal email address
+    steps:
+      id:
+        - Buka situs di atas dan buat akun dengan NIK, NISN, NPSN, dan email.
+        - Masuk dengan nomor pendaftaran yang dikirim ke email, lalu lengkapi data keluarga.
+        - Pilih jalur masuk kampus yang diikuti (SNBP, SNBT, atau Mandiri).
+        - Ikuti seleksi masuk kampus. Jika diterima, kampus akan mengecek data keluarga Anda.
+      en:
+        - Open the website above and create an account with the NIK, NISN, NPSN, and email.
+        - Sign in with the registration number sent to the email, then complete the family details.
+        - Choose the university entrance route being taken (SNBP, SNBT, or Mandiri).
+        - Take the university entrance selection. If accepted, the university will check your family details.
+    cost: { id: Gratis, en: Free }
+    time: { id: Pendaftaran dibuka setahun sekali, en: Registration opens once a year }
+  in_person:
+    office: sekolah
+    bring:
+      id: [Kartu Keluarga (KK), Kartu KIP atau KKS jika punya, Rapor atau ijazah anak]
+      en: [Family card (Kartu Keluarga / KK), "KIP or KKS card, if you have one", Child's report card or diploma]
+    steps:
+      id:
+        - Temui guru BK dan bilang, "Anak saya ingin daftar KIP Kuliah."
+        - Minta NISN anak dan NPSN sekolah.
+        - Minta dibantu membuat akun di situs KIP Kuliah.
+      en:
+        - See the school counsellor (guru BK) and say, "Anak saya ingin daftar KIP Kuliah" (my child wants to register for KIP Kuliah).
+        - Ask for the child's NISN and the school's NPSN number.
+        - Ask for help creating an account on the KIP Kuliah website.
+    cost: { id: Gratis, en: Free }
+    time: { id: Pendaftaran dibuka setahun sekali, en: Registration opens once a year }
+note:
+  id: Pendaftaran hanya dibuka pada waktu tertentu tiap tahun. Tanyakan jadwal terbaru ke sekolah atau lihat di situs resmi.
+  en: Registration is only open at certain times each year. Ask the school for the latest dates or check the official website.
+source_url: https://kip-kuliah.kemdiktisaintek.go.id

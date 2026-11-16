@@ -1,0 +1,34 @@
+id: sby_bpjstk
+title: { id: Jaminan kerja informal, en: Informal worker cover }
+benefit:
+  id: Perlindungan kecelakaan kerja dan kematian untuk pekerja lepas
+  en: Work accident and death cover for freelance and informal workers
+why:
+  id: Pencari nafkah bekerja lepas atau berdagang, ber-KTP Surabaya, dan keluarga kurang mampu.
+  en: The breadwinner is a freelance worker or trader, has a Surabaya KTP, and the family is low-income.
+priority: 55
+eligibility:
+  all:
+    - { fact: ktp_surabaya, in: ["yes"] }
+    - { fact: work, in: [informal] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP Surabaya, Kartu Keluarga (KK)]
+      en: [Surabaya ID card (KTP), Family card (Kartu Keluarga / KK)]
+    steps:
+      id:
+        - Bilang ke petugas, "Saya pekerja lepas. Apakah saya bisa didaftarkan BPJS Ketenagakerjaan dari Pemkot?"
+        - Sebutkan pekerjaan Anda (misalnya ojek, pedagang, buruh harian).
+        - Minta didata jika Anda belum terdaftar.
+      en:
+        - Tell the officer, "Saya pekerja lepas. Apakah saya bisa didaftarkan BPJS Ketenagakerjaan dari Pemkot?" (I am a freelance worker. Can the city register me for BPJS Ketenagakerjaan?)
+        - Say what work you do (for example motorbike taxi, trader, day labourer).
+        - Ask to be recorded if you are not yet registered.
+    cost: { id: Gratis jika iuran ditanggung Pemkot, en: Free if the city pays the fee }
+    time: { id: Tergantung pengecekan data, en: Depends on the data check }
+source_url: https://brin.go.id/en/news/126065/surabaya-reduces-poverty-through-research-and-innovation-based-real-time-data-dashboard

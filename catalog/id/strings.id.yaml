@@ -1,0 +1,54 @@
+pick_language: Pilih bahasa Anda.
+change_language: Ganti bahasa
+welcome: |-
+  Selamat datang di {operator}, layanan yang mengutamakan warga untuk membantu Anda memahami dokumen dan aturan kebijakan yang rumit, dan mendapatkan dukungan yang Anda perlukan untuk memakai layanan yang tersedia bagi Anda. 👋
+
+  Saya membantu mencari bantuan pemerintah yang mungkin bisa didapat keluarga Anda di {country}, lalu menjelaskan cara mendaftarnya. {operator} bukan layanan pemerintah.
+
+  Saya akan bertanya beberapa hal singkat tentang keluarga Anda. Jawaban hanya dipakai untuk mencari bantuan yang cocok. Ketik HAPUS DATA SAYA kapan saja untuk menghapusnya.
+
+  Gratis. Saya tidak pernah meminta uang, PIN, kata sandi, atau foto dokumen Anda.
+start: Mulai
+change_country: Ganti negara
+choose: Pilih
+more: Lainnya
+pick_country: Pilih negara Anda.
+region_prompt: Anda tinggal di {level} mana?
+not_understood: Maaf, saya belum mengerti. Silakan pilih salah satu, atau ketik nomornya.
+voice_unavailable: Maaf, saya belum bisa mendengarkan pesan suara. Silakan pilih salah satu, atau ketik nomornya.
+no_media: Anda tidak perlu mengirim foto atau file di sini. Mohon jangan kirim foto KTP atau KK.
+results_intro: "Keluarga Anda *mungkin* bisa mendapat bantuan ini. Pilih satu untuk melihat cara daftarnya. Keputusan akhir ada di kantor pemerintah."
+results_none: Dari jawaban Anda, saat ini saya belum menemukan bantuan yang cocok. Anda tetap bisa bertanya langsung ke kantor kelurahan atau desa.
+restart: Mulai ulang
+why_label: "Cocok untuk Anda karena:"
+how_apply: Cara daftar
+back: Kembali
+route_prompt: Anda mau daftar dengan cara apa?
+in_person: Datang langsung
+online: Daftar online
+where: Ke mana
+bring: Bawa
+ready: Siapkan
+steps: Langkah
+cost: "Biaya:"
+time: "Waktu:"
+source: "Sumber: {url}"
+unverified: Info ini sudah lama tidak dicek ulang. Pastikan dulu ke kantor atau situs resmi sebelum berangkat.
+docs_prompt: Apakah Anda sudah punya semua dokumen di atas?
+docs_have: Sudah punya
+docs_missing: Belum
+docs_tip: Tidak apa-apa. Tanyakan ke kantor kelurahan atau desa cara mengurus dokumen yang belum ada, lalu kembali ke langkah ini.
+after_prompt: Simpan pesan di atas, ya. Setelah itu?
+applied: Sudah daftar
+other_program: Program lain
+done: Selesai
+thanks_applied: Bagus! Semoga lancar. 🙏
+goodbye: Baik. Ketik MENU kapan saja untuk melihat lagi daftar bantuan Anda.
+delete_confirm: Semua jawaban Anda akan dihapus dan tidak bisa dikembalikan. Lanjutkan?
+delete_yes: Ya, hapus
+delete_no: Batal
+deleted: Data Anda sudah dihapus. Kirim pesan apa saja jika ingin mulai lagi.
+cmd_delete: hapus data saya
+cmd_country: ganti negara
+cmd_language: ganti bahasa
+cmd_menu: menu

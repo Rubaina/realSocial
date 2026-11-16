@@ -1,0 +1,15 @@
+kelurahan:
+  name: { id: Kantor kelurahan di Surabaya, en: Your ward office (kantor kelurahan) in Surabaya }
+  find:
+    id: Sesuai alamat di KTP Anda. Bisa juga minta tolong Kader Surabaya Hebat (KSH) atau ketua RT/RW.
+    en: The one for the address on your KTP. You can also ask a Kader Surabaya Hebat (KSH) volunteer or your RT/RW head for help.
+dinsos:
+  name: { id: Dinas Sosial Kota Surabaya, en: Surabaya City Social Affairs Office (Dinas Sosial) }
+  find:
+    id: Tanyakan alamat dan jam layanan di kantor kelurahan, atau telepon Command Center 112.
+    en: Ask for the address and opening hours at your ward office, or call Command Center 112.
+puskesmas:
+  name: { id: Puskesmas terdekat di Surabaya, en: Nearest community health centre (puskesmas) in Surabaya }
+  find:
+    id: Puskesmas di kecamatan tempat Anda tinggal. Buka di hari kerja.
+    en: The puskesmas in the district where you live. Open on working days.

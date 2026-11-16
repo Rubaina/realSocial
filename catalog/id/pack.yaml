@@ -1,0 +1,17 @@
+code: id
+name: Indonesia
+languages: [id, en]
+phone_prefix: "62"
+region_levels:
+  id: [provinsi, kota atau kabupaten]
+  en: [province, city or regency]
+regions:
+  - id: jawa-timur
+    name: { id: Jawa Timur, en: East Java }
+    children:
+      - id: surabaya
+        name: { id: Kota Surabaya, en: Surabaya City }
+      - id: lainnya
+        name: { id: Kota/kabupaten lain, en: Other city/regency }
+  - id: lainnya
+    name: { id: Provinsi lain, en: Other province }

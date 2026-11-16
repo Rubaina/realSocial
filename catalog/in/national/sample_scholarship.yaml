@@ -1,0 +1,27 @@
+id: sample_scholarship
+title: "Sample: scholarship"
+benefit: Sample entry showing a school scholarship for low-income families
+why: Low family income and a child in school. (Sample data, not a real scheme.)
+priority: 50
+eligibility:
+  all:
+    - { fact: income, in: [low] }
+    - { fact: school_child, in: ["yes"] }
+how_to_apply:
+  in_person:
+    office: csc
+    bring: [Aadhaar card, Income certificate, School ID or bonafide certificate]
+    steps:
+      - Tell the operator you want to apply for a school scholarship.
+      - Hand over your documents and check the details typed in.
+      - Keep the acknowledgement slip.
+    cost: Free, or a small service fee at the centre
+    time: A few weeks
+  online:
+    url: https://www.myscheme.gov.in
+    ready: [Aadhaar number, Mobile number linked to Aadhaar]
+    steps:
+      - Open the website and search for scholarships for your state.
+      - Open a scheme and read who can apply.
+      - Follow the Apply link shown for that scheme.
+source_url: https://www.myscheme.gov.in

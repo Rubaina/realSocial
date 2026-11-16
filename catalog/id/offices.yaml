@@ -1,0 +1,20 @@
+kelurahan:
+  name: { id: Kantor kelurahan atau desa, en: Village or ward office (kantor kelurahan/desa) }
+  find:
+    id: Sesuai alamat di KTP Anda. Jika belum tahu tempatnya, tanya ketua RT/RW.
+    en: The one for the address on your KTP. If you do not know where it is, ask your neighbourhood head (RT/RW).
+dinsos:
+  name: { id: Dinas Sosial kota/kabupaten, en: City or regency Social Affairs Office (Dinas Sosial) }
+  find:
+    id: Tanyakan alamatnya di kantor kelurahan atau desa.
+    en: Ask for its address at your village or ward office.
+sekolah:
+  name: { id: Sekolah anak Anda, en: Your child's school }
+  find:
+    id: Temui wali kelas atau petugas tata usaha (operator sekolah).
+    en: See the class teacher or the school administration staff (operator sekolah).
+puskesmas:
+  name: { id: Puskesmas terdekat, en: Nearest community health centre (puskesmas) }
+  find:
+    id: Puskesmas di kecamatan tempat Anda tinggal.
+    en: The puskesmas in the district where you live.

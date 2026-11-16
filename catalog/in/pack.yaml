@@ -1,0 +1,16 @@
+# Skeleton pack that proves a country can be added with data only. Programs here are samples, not real schemes.
+code: in
+name: India
+languages: [en]
+phone_prefix: "91"
+region_levels: [state, city or district]
+regions:
+  - id: maharashtra
+    name: Maharashtra
+    children:
+      - id: mumbai
+        name: Mumbai
+      - id: other
+        name: Other city/district
+  - id: other
+    name: Other state

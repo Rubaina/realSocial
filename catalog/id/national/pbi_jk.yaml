@@ -1,0 +1,36 @@
+id: pbi_jk
+title: { id: BPJS Kesehatan gratis, en: Free BPJS health cover }
+benefit:
+  id: Iuran BPJS Kesehatan dibayar pemerintah (PBI JK)
+  en: The government pays your BPJS health insurance fee (PBI JK)
+why:
+  id: Keluarga kurang mampu yang belum punya BPJS Kesehatan aktif.
+  en: A low-income family without active BPJS Kesehatan health insurance.
+priority: 88
+eligibility:
+  all:
+    - { fact: bpjs, in: ["no", unknown] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: dinsos
+    bring:
+      id: [KTP, Kartu Keluarga (KK)]
+      en: [ID card (KTP), Family card (Kartu Keluarga / KK)]
+    steps:
+      id:
+        - Bilang ke petugas, "Saya ingin diusulkan menjadi peserta BPJS Kesehatan PBI."
+        - Jika dulu pernah punya tapi sekarang tidak aktif, bilang, "Saya ingin mengaktifkan kembali."
+        - Isi formulir dan tunggu data Anda dicek.
+      en:
+        - Tell the officer, "Saya ingin diusulkan menjadi peserta BPJS Kesehatan PBI" (I would like to be proposed as a PBI member of BPJS Kesehatan).
+        - If you had it before but it is no longer active, say, "Saya ingin mengaktifkan kembali" (I would like to reactivate it).
+        - Fill in the form and wait for your data to be checked.
+    cost: { id: Gratis, en: Free }
+    time: { id: Tergantung pengecekan data, en: Depends on the data check }
+note:
+  id: Penerima ditetapkan Kemensos berdasarkan data DTSEN. Bisa juga mulai dari kantor kelurahan.
+  en: Recipients are decided by the Ministry of Social Affairs from the DTSEN data. You can also start at your ward office.
+source_url: https://cekbansos.kemensos.go.id

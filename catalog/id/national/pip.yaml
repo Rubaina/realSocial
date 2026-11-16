@@ -1,0 +1,60 @@
+id: pip
+title: { id: "PIP: uang sekolah", en: "PIP: school money" }
+benefit:
+  id: Uang bantuan sekolah tiap tahun untuk anak TK sampai SMA/SMK
+  en: Yearly school money for children from kindergarten to high school
+why:
+  id: Keluarga kurang mampu yang punya anak masih sekolah.
+  en: A low-income family with a child still in school.
+priority: 85
+eligibility:
+  all:
+    - { fact: school_child, in: ["yes"] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: sekolah
+    bring:
+      id:
+        - Kartu Keluarga (KK)
+        - KTP orang tua atau wali
+        - Kartu KIP atau KKS jika punya
+        - Surat keterangan tidak mampu (SKTM) dari kelurahan jika tidak punya KIP
+      en:
+        - Family card (Kartu Keluarga / KK)
+        - Parent's or guardian's ID card (KTP)
+        - KIP or KKS card, if you have one
+        - A low-income letter (SKTM) from your ward office, if you have no KIP card
+    steps:
+      id:
+        - Bilang, "Saya ingin anak saya diusulkan sebagai penerima PIP."
+        - Minta sekolah menandai anak Anda "Layak PIP" di data sekolah (Dapodik).
+        - Tanyakan kapan hasilnya bisa dicek.
+        - Jika ditetapkan, sekolah akan memberi tahu cara mengaktifkan rekening tabungan anak.
+      en:
+        - Say, "Saya ingin anak saya diusulkan sebagai penerima PIP" (I would like my child to be proposed for PIP).
+        - Ask the school to mark your child as "Layak PIP" in the school data (Dapodik).
+        - Ask when you can check the result.
+        - If your child is chosen, the school will tell you how to activate the child's savings account.
+    cost: { id: Gratis, en: Free }
+    time:
+      id: Tergantung jadwal penetapan dari kementerian
+      en: Depends on the ministry's schedule
+  online:
+    url: https://pip.kemendikdasmen.go.id
+    ready:
+      id: [NISN anak (tanya ke sekolah), NIK anak (ada di KK)]
+      en: [Child's NISN student number (ask the school), Child's NIK number (on the family card)]
+    steps:
+      id:
+        - Buka situs di atas dan tekan Cari Penerima PIP.
+        - Isi NISN dan NIK anak.
+        - Situs ini hanya untuk mengecek. Jika anak belum terdaftar, usulkan lewat sekolah.
+      en:
+        - Open the website above and press Cari Penerima PIP.
+        - Enter the child's NISN and NIK.
+        - This site is only for checking. If your child is not listed, ask the school to propose them.
+    cost: { id: Gratis, en: Free }
+source_url: https://pip.kemendikdasmen.go.id

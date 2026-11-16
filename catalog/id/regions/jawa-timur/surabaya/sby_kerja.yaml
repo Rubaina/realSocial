@@ -1,0 +1,34 @@
+id: sby_kerja
+title: { id: Pelatihan & padat karya, en: Training & public works }
+benefit:
+  id: Pelatihan keterampilan dan pekerjaan padat karya dari Pemkot Surabaya
+  en: Skills training and paid public-works jobs from Surabaya city
+why:
+  id: Keluarga kurang mampu ber-KTP Surabaya yang pencari nafkahnya belum bekerja tetap.
+  en: A low-income family with Surabaya KTP whose breadwinner has no steady job.
+priority: 65
+eligibility:
+  all:
+    - { fact: ktp_surabaya, in: ["yes"] }
+    - { fact: work, in: [informal, none] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP Surabaya, Kartu Keluarga (KK)]
+      en: [Surabaya ID card (KTP), Family card (Kartu Keluarga / KK)]
+    steps:
+      id:
+        - Bilang ke petugas, "Saya ingin ikut pelatihan kerja atau program padat karya."
+        - Sebutkan keterampilan atau pekerjaan yang Anda minati.
+        - Minta didata dan tanyakan jadwal terdekat.
+      en:
+        - Tell the officer, "Saya ingin ikut pelatihan kerja atau program padat karya" (I would like to join job training or the public-works program).
+        - Say which skill or kind of work interests you.
+        - Ask to be recorded and ask for the next dates.
+    cost: { id: Gratis, en: Free }
+    time: { id: Tergantung jadwal program, en: Depends on the program schedule }
+source_url: https://brin.go.id/en/news/126065/surabaya-reduces-poverty-through-research-and-innovation-based-real-time-data-dashboard

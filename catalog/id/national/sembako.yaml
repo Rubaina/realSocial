@@ -1,0 +1,50 @@
+id: sembako
+title: { id: Bantuan sembako (BPNT), en: Food aid (BPNT) }
+benefit:
+  id: Bantuan rutin untuk membeli bahan makanan
+  en: Regular help to buy basic food
+why:
+  id: Keluarga kurang mampu yang terdata di data sosial pemerintah.
+  en: A low-income family listed in the government social data.
+priority: 80
+eligibility:
+  any:
+    - { fact: registry, in: ["yes"] }
+    - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP, Kartu Keluarga (KK)]
+      en: [ID card (KTP), Family card (Kartu Keluarga / KK)]
+    steps:
+      id:
+        - Bilang ke petugas, "Saya ingin diusulkan masuk data DTSEN untuk bantuan sembako (BPNT)."
+        - Isi formulir yang diberikan. Minta tolong petugas jika sulit.
+        - Tunggu petugas datang ke rumah untuk mengecek.
+        - Jika disetujui Kemensos, bantuan diambil lewat bank pemerintah atau Kantor Pos.
+      en:
+        - Tell the officer, "Saya ingin diusulkan masuk data DTSEN untuk bantuan sembako (BPNT)" (I would like to be proposed for the DTSEN data for food aid).
+        - Fill in the form you are given. Ask the officer for help if it is difficult.
+        - Wait for an officer to visit your home to check.
+        - If the Ministry of Social Affairs approves, the aid is collected through a state bank or the post office.
+    cost: { id: Gratis, en: Free }
+    time:
+      id: Bisa beberapa bulan, karena data dicek dulu
+      en: Can take several months, because the data is checked first
+  online:
+    url: https://cekbansos.kemensos.go.id
+    ready:
+      id: [KTP (untuk nama lengkap dan alamat)]
+      en: [ID card (KTP), for your full name and address]
+    steps:
+      id:
+        - Buka situs di atas.
+        - Pilih wilayah sesuai KTP, ketik nama lengkap, lalu tekan Cari Data.
+        - Jika nama belum ada, pasang aplikasi Cek Bansos dan pakai menu Daftar Usulan, atau datang ke kelurahan.
+      en:
+        - Open the website above.
+        - Choose the area shown on your KTP, type your full name, then press Cari Data.
+        - If your name is not there, install the Cek Bansos app and use the Daftar Usulan menu, or go to your ward office.
+    cost: { id: Gratis, en: Free }
+source_url: https://cekbansos.kemensos.go.id

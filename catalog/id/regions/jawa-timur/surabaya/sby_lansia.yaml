@@ -1,0 +1,34 @@
+id: sby_lansia
+title: { id: Bantuan untuk lansia, en: Support for the elderly }
+benefit:
+  id: Subsidi listrik dan bantuan tunai Pemkot Surabaya untuk lansia
+  en: Surabaya electricity subsidy and cash aid for elderly residents
+why:
+  id: Keluarga kurang mampu ber-KTP Surabaya yang punya anggota berusia 60 tahun ke atas.
+  en: A low-income family with Surabaya KTP and a member aged 60 or older.
+priority: 70
+eligibility:
+  all:
+    - { fact: ktp_surabaya, in: ["yes"] }
+    - { fact: elderly, in: ["yes"] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP Surabaya milik lansia, Kartu Keluarga (KK), Struk listrik jika ada]
+      en: [The elderly person's Surabaya ID card (KTP), Family card (Kartu Keluarga / KK), "An electricity receipt, if you have one"]
+    steps:
+      id:
+        - Bilang ke petugas, "Di rumah ada lansia. Bantuan apa yang bisa didapat dari Pemkot?"
+        - Tanyakan subsidi listrik untuk lansia dan bantuan tunai.
+        - Minta keluarga Anda didata jika belum masuk data keluarga miskin Pemkot.
+      en:
+        - Tell the officer, "Di rumah ada lansia. Bantuan apa yang bisa didapat dari Pemkot?" (There is an elderly person at home. What support can we get from the city?)
+        - Ask about the electricity subsidy for the elderly and cash aid.
+        - Ask for your family to be recorded if it is not yet in the city's low-income family data.
+    cost: { id: Gratis, en: Free }
+    time: { id: Tergantung pengecekan data, en: Depends on the data check }
+source_url: https://brin.go.id/en/news/126065/surabaya-reduces-poverty-through-research-and-innovation-based-real-time-data-dashboard

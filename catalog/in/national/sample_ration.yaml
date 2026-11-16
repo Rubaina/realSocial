@@ -1,0 +1,19 @@
+id: sample_ration
+title: "Sample: food ration"
+benefit: Sample entry showing subsidised food grain for low-income families
+why: Low family income. (Sample data, not a real scheme.)
+priority: 40
+eligibility:
+  fact: income
+  in: [low, mid]
+how_to_apply:
+  in_person:
+    office: csc
+    bring: [Aadhaar cards of family members, Proof of address]
+    steps:
+      - Tell the operator you want to apply for a ration card.
+      - Hand over your documents and check the details typed in.
+      - Keep the acknowledgement slip.
+    cost: Free, or a small service fee at the centre
+    time: A few weeks
+source_url: https://www.myscheme.gov.in

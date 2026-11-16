@@ -1,0 +1,41 @@
+id: sby_sarjana
+title: { id: 1 Keluarga 1 Sarjana, en: 1 Family 1 Graduate }
+benefit:
+  id: Pemkot Surabaya membiayai satu anak sampai lulus sarjana
+  en: Surabaya city pays for one child's studies up to a bachelor's degree
+why:
+  id: Keluarga kurang mampu ber-KTP Surabaya yang punya anak sekolah atau ingin kuliah.
+  en: A low-income family with Surabaya KTP and a child in school or wanting to go to university.
+priority: 100
+eligibility:
+  all:
+    - { fact: ktp_surabaya, in: ["yes"] }
+    - any:
+        - { fact: registry, in: ["yes"] }
+        - { fact: income, in: [lt1, 1to2] }
+    - any:
+        - { fact: college_bound, in: ["yes"] }
+        - { fact: school_child, in: ["yes"] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP Surabaya, Kartu Keluarga (KK), Rapor atau ijazah terakhir anak]
+      en: [Surabaya ID card (KTP), Family card (Kartu Keluarga / KK), Child's latest report card or diploma]
+    steps:
+      id:
+        - Tanya ke petugas, "Apakah keluarga saya masuk data keluarga miskin Pemkot Surabaya?"
+        - Bilang, "Saya ingin anak saya diusulkan untuk program 1 Keluarga Miskin 1 Sarjana."
+        - Tanyakan juga Beasiswa Pemuda Tangguh untuk anak yang sudah kuliah.
+        - Petugas akan mendata dan bisa datang ke rumah untuk memilih anak yang dibiayai.
+      en:
+        - Ask the officer, "Apakah keluarga saya masuk data keluarga miskin Pemkot Surabaya?" (Is my family in the city's low-income family data?)
+        - Say, "Saya ingin anak saya diusulkan untuk program 1 Keluarga Miskin 1 Sarjana" (I would like my child to be proposed for this program).
+        - Also ask about the Beasiswa Pemuda Tangguh scholarship for a child already at university.
+        - Officers will record your family and may visit your home to choose which child is funded.
+    cost: { id: Gratis, en: Free }
+    time: { id: Tergantung kuota dan jadwal Pemkot, en: Depends on the city's quota and schedule }
+note:
+  id: Kuota terbatas. Keluarga yang paling membutuhkan didahulukan.
+  en: Places are limited. Families most in need come first.
+source_url: https://www.surabaya.go.id/id/berita/9684/wali-kota-eri-inisiasi-program-1-gamis-1-sarjana-putus-rantai-kemiskinan-dengan-pendidikan

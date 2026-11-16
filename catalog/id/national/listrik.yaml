@@ -1,0 +1,38 @@
+id: listrik
+title: { id: Subsidi listrik, en: Electricity subsidy }
+benefit:
+  id: Tagihan atau token listrik lebih murah untuk daya 450 VA dan 900 VA
+  en: Cheaper electricity bills or tokens for 450 VA and 900 VA homes
+why:
+  id: Rumah dengan daya 450 VA, atau 900 VA untuk keluarga yang terdata kurang mampu.
+  en: A home with 450 VA power, or 900 VA for a family listed as low-income.
+priority: 60
+eligibility:
+  any:
+    - { fact: power, in: ["450"] }
+    - all:
+        - { fact: power, in: ["900"] }
+        - any:
+            - { fact: registry, in: ["yes"] }
+            - { fact: income, in: [lt1, 1to2] }
+how_to_apply:
+  in_person:
+    office: kelurahan
+    bring:
+      id: [KTP, Kartu Keluarga (KK), Struk token atau tagihan listrik (ada nomor ID pelanggan)]
+      en: [ID card (KTP), Family card (Kartu Keluarga / KK), An electricity token receipt or bill (it shows your customer ID)]
+    steps:
+      id:
+        - Cek dulu struk listrik Anda. Jika tertulis tarif subsidi (R1/450 VA atau R1/900 VA bersubsidi), Anda sudah dapat.
+        - Jika belum, bilang ke petugas, "Saya ingin mengajukan subsidi listrik."
+        - Isi formulir pengaduan subsidi listrik dan serahkan ke petugas.
+      en:
+        - First check your electricity receipt. If it shows a subsidised tariff (R1/450 VA or subsidised R1/900 VA), you already get it.
+        - If not, tell the officer, "Saya ingin mengajukan subsidi listrik" (I would like to apply for the electricity subsidy).
+        - Fill in the electricity subsidy complaint form and hand it to the officer.
+    cost: { id: Gratis, en: Free }
+    time: { id: Tergantung pengecekan data, en: Depends on the data check }
+note:
+  id: Bisa juga bertanya ke PLN lewat telepon 123 atau aplikasi PLN Mobile.
+  en: You can also ask PLN by phone on 123 or in the PLN Mobile app.
+source_url: https://web.pln.co.id

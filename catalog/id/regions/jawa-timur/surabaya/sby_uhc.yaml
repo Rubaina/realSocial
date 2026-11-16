@@ -1,0 +1,34 @@
+id: sby_uhc
+title: { id: Berobat gratis pakai KTP, en: Free care with your KTP }
+benefit:
+  id: Warga ber-KTP Surabaya bisa berobat gratis cukup dengan KTP
+  en: Surabaya KTP holders get free treatment by showing their KTP
+why:
+  id: Anda ber-KTP Surabaya dan belum punya BPJS Kesehatan yang aktif.
+  en: You have a Surabaya KTP and no active BPJS Kesehatan health insurance.
+priority: 98
+eligibility:
+  all:
+    - { fact: ktp_surabaya, in: ["yes"] }
+    - { fact: bpjs, in: ["no", unknown] }
+how_to_apply:
+  in_person:
+    office: puskesmas
+    bring:
+      id: [KTP Surabaya, Kartu Keluarga (KK) jika ada]
+      en: [Surabaya ID card (KTP), "Family card (Kartu Keluarga / KK), if you have it"]
+    steps:
+      id:
+        - Datang ke loket pendaftaran dan tunjukkan KTP Surabaya.
+        - Bilang, "Saya belum punya BPJS aktif, mau berobat dengan KTP."
+        - Petugas akan mendaftarkan Anda. Anda bisa langsung diperiksa.
+      en:
+        - Go to the registration desk and show your Surabaya KTP.
+        - Say, "Saya belum punya BPJS aktif, mau berobat dengan KTP" (I have no active BPJS and want treatment with my KTP).
+        - The staff will register you. You can be seen straight away.
+    cost: { id: Gratis, en: Free }
+    time: { id: Bisa langsung di hari yang sama, en: Usually the same day }
+note:
+  id: Berlaku untuk warga yang KTP dan tempat tinggalnya di Surabaya.
+  en: For residents whose KTP and home are both in Surabaya.
+source_url: https://jatim.antaranews.com/berita/794253/pemkot-surabaya-pastikan-226-fasyankes-layani-syarat-berobat-dengan-ktp
