@@ -61,6 +61,10 @@ To review for the simulator, point both at the same database: `DB_PATH=data/sim.
 
 The bot only replies when a person writes. It sends no reminders.
 
+## Put it online (Railway)
+
+To let pilot users reach it without your Mac, see [docs/deploying-on-railway.md](docs/deploying-on-railway.md).
+
 ## How it works
 
 | Part | Where | What it does |
